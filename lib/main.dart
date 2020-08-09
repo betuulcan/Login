@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
+        // fontFamily: 'VarelaRound',
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
