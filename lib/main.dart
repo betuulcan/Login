@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:omubu/widgets/horizontalline.dart';
 
 void main() {
   runApp(MyApp());
@@ -148,12 +149,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Container(
                     margin: EdgeInsets.only(top: 45.0),
-                    child: Text(
-                      "_______________________   veya   _______________________",
-                      style: TextStyle(
-                        color: Colors.white.withOpacity(0.7),
-                      ),
-                    ),
+                    child: HorizontalOrLine(height: 50, label: "veya"),
+
+                    // child: Text(
+                    //   "_______________________   veya   _______________________",
+                    //   style: TextStyle(
+                    //     color: Colors.white.withOpacity(0.7),
+                    //   ),
+                    // ),
                   ),
                   Container(
                     width: 400,
